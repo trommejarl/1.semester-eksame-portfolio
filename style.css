@@ -782,34 +782,6 @@ grid-template-areas:
     font-size: 16px;
   }
 
-  .index2{
-    display: grid;
-    grid-template-areas:
-    'a'
-    'b';
-    text-align: center;
-    }
-
-    .grid-frontpage1{
-      display: grid;
-      grid-template-areas:
-      'a'
-      'b'
-      'd'
-      'c';
-      grid-gap: 40px;
-}
-}
-
-.grid-frontpage1-1{
-  display: grid;
-  grid-template-areas:
-  'a'
-  'b'
-  'd'
-  'c';
-  grid-gap: 40px;
-}
 
 @media (max-width: 858px){
   .checkbtn{
@@ -1079,5 +1051,37 @@ grid-template-areas:
 #anima123{
   margin-left: 0px;
 }
+
+
+.index2{
+  display: grid;
+  grid-template-areas:
+  'a'
+  'b';
+  text-align: center;
+  }
+
+  .grid-frontpage1{
+    display: grid;
+    grid-template-areas:
+    'a'
+    'b'
+    'd'
+    'c';
+    grid-gap: 40px;
+
+}
+
+.grid-frontpage1-1{
+display: grid;
+grid-template-areas:
+'a'
+'b'
+'d'
+'c';
+grid-gap: 40px;
+}
+
+
 
   }
