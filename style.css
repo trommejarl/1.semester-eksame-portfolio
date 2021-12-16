@@ -781,7 +781,7 @@ grid-template-areas:
   nav ul li a{
     font-size: 16px;
   }
-
+}
 
 @media (max-width: 858px){
   .checkbtn{
