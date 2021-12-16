@@ -799,6 +799,7 @@ grid-template-areas:
       'c';
       grid-gap: 40px;
 }
+}
 
 .grid-frontpage1-1{
   display: grid;
