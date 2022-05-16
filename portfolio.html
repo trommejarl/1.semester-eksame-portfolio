@@ -1,215 +1,98 @@
 <!DOCTYPE html>
 <html lang="da" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
-  </head>
-  <body>
-    <nav>
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+<script src="js/header.js" defer></script>
+<script src="js/slide.js" defer></script>
+<script src="js/slide-1.js" defer></script>
+</head>
 
-    <a class="logo" href="index.html"><span class="logo-top">Portfolio</span></a>
+<body class="forside-baggrund" id="scroll">
 
-      <ul>
-        <li><a href="index.html">Startside</a></li>
-        <li><a class="aktiv" href="portfolio.html">Portfolio</a></li>
-        <li><a href="om_mig.html">Om Mig</a></li>
-        <li><a href="kontakt.html">Kontakt</a></li>
-      </ul>
+  <nav id="bagg">
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
 
-    </nav>
+    <a class="logo" href="index.html"><span class="logo-top"><img src="pictures/logo-lang.png" alt="jarldesign-logo" id="logo-jarlsdesign"></span></a>
 
-    <section>
+    <ul>
+      <li><a href="index.html">Startside</a></li>
+      <li><a class="aktiv" href="portfolio.html">Portfolio</a></li>
+      <li><a href="om_mig.html">Om Mig</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+  </nav>
 
-      <div class="section-container">
-        <div class="titel"><h1>Min portfolio</h1></div>
-        <div><img src="pictures/boelge.png" alt="boelge" id="wave"></div>
+  <section>
+    <img src="pictures/rally/1.jpg" alt="jarlsdesign" id="gf1-pic">
+    <div class="section-container">
+      <div class="titel">
+        <h2>Portfolio</h2>
       </div>
-    </section>
-
-
-    <div class="grid-body" id="toppen">
-
-      <div class="itema"><h2 id="contact-titel"> <br><br>Her ser du mine seneste projekter</h2></div>
-        <div class="itemb"><p id="contact-me-text">Med en bred vifte af kompentencer laver jeg alt fra grafisk design, animtaion og hjemmesider, til fotografering og vidoeproduktion.<br>
-          Herunder ser du et lille udvalg af, hvad jeg hos Emil Jarl Møller - Design, kan tilbyde. Hos mig får du derfor kvalitet i alle <br>formater og opløsninger der er redigeret til netop dine behov og ønsker.<br>
-          <br><b>Klik på knapperne her under for at se mine forskellige produkter:</b></p>
+      <div><img src="pictures/boelge.png" alt="boelge" id="wave"></div>
     </div>
-  </div>
+  </section>
 
-
-<br>
-<br>
-
-<div class="test">
-<a href="#billede-kval">Fotos og billeder</a>
-<a href="#grafisk">Grafisk design</a>
-<a href="#video">Videoproduktion</a>
-<a href="#animationer">Animation</a>
-<a href="#front-header-1">Konceptudvikling</a>
-<a href="#hjemmeside">Hjemmesidedesign</a>
-</div>
-
-
-
-
-<br>
-<br>
-    <br>
-    <br>
-          <div class="animationer-portfolio123" id="billede-kval"><h3 id="anima123">Billeder i høj kvalitet</h3></div>
-
-
-    <div class="image-mosaic" id="billede">
-      <div
-        class="card card-tall card-wide"
-        style="background-image: url('pictures/portfolio/1.jpg')"
-      ></div>
-      <div
-        class="card card-tall"
-        style="background-image: url('pictures/portfolio/2.jpg')"
-      ></div>
-      <div
-        class="card"
-        style="background-image: url('pictures/portfolio/18.jpg')"
-      ></div>
-      <div
-        class="card"
-        style="background-image: url('pictures/portfolio/4.jpg')"
-      ></div>
-      <div
-        class="card"
-        style="background-image: url('pictures/portfolio/5.jpg')"
-      ></div>
-      <div
-        class="card"
-        style="background-image: url('pictures/portfolio/11.jpg')"
-      ></div>
-      <div
-        class="card card-wide"
-        style="background-image: url('pictures/portfolio/19.jpg')"
-      ></div>
-      <div
-        class="card"
-        style="background-image: url('pictures/portfolio/15.jpg')"
-      ></div>
-      <div
-        class="card"
-        style="background-image: url('pictures/portfolio/3.jpg')"
-      ></div>
-      <div
-        class="card"
-        style="background-image: url('pictures/portfolio/13.jpg')"
-      ></div>
+<main class="white">
+  <div class="breadcrumbs">
+    <a href="index.html" class="breadcrumbs__item">Startside</a>
+    <a href="portfolio.html" class="breadcrumbs__item is-active">Portfolio</a>
     </div>
-<br>
-<br>
-<br>
-<br>
+<div class="port"><h1>Foto og video</h1><p>Se herunder udvalgte projekter jeg har arbejdet med.</p></div>
+<div class="white-space">
+<div class="gallery-portfolio">
 
+  <div class="card-1" onclick="location.href='rally.html';" style="background-image: url('pictures/rally/1.jpg'); cursor: pointer"><div class="title-card"><h3>El Rally Anderup 2022</h3></div></div>
+  <div class="card-1" onclick="location.href='skov.html';" style="background-image: url('pictures/small/2.jpg'); cursor: pointer"><div class="title-card"><h3>Skovtårnet I Haslev</h3></div></div>
+  <div class="card-1" onclick="location.href='portraet.html';" style="background-image: url('pictures/small/5.jpg'); cursor: pointer"><div class="title-card"><h3>Portrætbilleder</h3></div></div>
+  <div class="card-1" onclick="location.href='odense.html';" style="background-image: url('pictures/small/7.jpg'); cursor: pointer"><div class="title-card"><h3>Bybilleder</h3></div></div>
+  <div class="card-1" onclick="location.href='skiferie.html';" style="background-image: url('pictures/small/11.jpg'); cursor: pointer"><div class="title-card"><h3>Skiferie 2022</h3></div></div>
+  <div class="card-1" onclick="location.href='fodbold.html';" style="background-image: url('pictures/fodbold/sma/1.jpg'); cursor: pointer"><div class="title-card"><h3>Fodbold B67</h3></div></div>
+  <div class="card-1" onclick="location.href='natur.html';" style="background-image: url('pictures/natur/sma/9.jpg'); cursor: pointer"><div class="title-card"><h3>Naturbilleder</h3></div></div>
+  <div class="card-1" onclick="location.href='grafisk.html';" style="background-image: url('pictures/small/grafisk.jpg'); cursor: pointer"><div class="title-card"><h3>Grafisk design</h3></div></div>
 
-  <div class="video-overskrift" id="grafisk"><h3 id="grafisk-design">Grafisk design</h3></div>
-<br>
-  <div class="horizontal-snap">
-  <a href="http://mvvstudios.dk/kvadrat/mig.png"><img src="pictures/kvadrat/mig.png" alt="mig"></a>
-  <a href="http://mvvstudios.dk/kvadrat/us.jpg"><img src="pictures/kvadrat/us.jpg" alt="us"></a>
-  <a href="http://mvvstudios.dk/kvadrat/mvv.jpg"><img src="pictures/kvadrat/mvv.jpg" alt="mvv"></a>
-  <a href="http://mvvstudios.dk/kvadrat/intro.jpg"><img src="pictures/kvadrat/intro.jpg" alt="intro"></a>
-  <a href="http://mvvstudios.dk/kvadrat/tree.jpg"><img src="pictures/kvadrat/tree.jpg" alt="tree"></a>
-  <a href="http://mvvstudios.dk/kvadrat/emma.jpg"><img src="pictures/kvadrat/emma.jpg" alt="emma"></a>
-  <a href="http://mvvstudios.dk/kvadrat/cartoon.png"><img src="pictures/kvadrat/cartoon.png" alt="cartoon"></a>
 
 </div>
-
-<br>
-<br>
-<br>
-<br>
-  <div class="video-overskrift" id="video"><h3 id="grafisk-design111">Videoproduktion</h3></div>
-<br>
-<div class="hjemmeside-design">
-  <div class="video1"><iframe class="video-1"
-src="https://www.youtube.com/embed/FffcMkdGNxU">
-</iframe></div>
-    <div class="video2">Denne musikvideo er lavet i samarbejde med MBmedier.dk til bandet "Mens Vi Venter"<br><small>- Klippet og redigeret af Emil Jarl Møller - Design i Adobe Preiere Pro.</small></div>
-
-      <div class="video3"><iframe class="video-3"
-    src="https://www.youtube.com/embed/BMccocCjIeM">
-    </iframe></div>
-
-        <div class="video4"><iframe class="video-4"
-      src="https://www.youtube.com/embed/ZBQTJ8xF9WY"></iframe></div>
-
-          <div class="video5">Reklamevideo, lavet til kajakfreak.dk<br><small>- Redigeret i Adobe Premiere Pro</small></div>
-            <div class="video6">Reklamevideo, lavet til vestfyns-fodboldgolf.dk i Assens.<br><small>- Redigeret i Adobe Premiere Pro</small></div>
-              <div class="video7"><iframe class="video-7"
-            src="https://www.youtube.com/embed/UR5n5URMslA"></iframe></div>
-                <div class="video8">Produktvideo for Canon's 100-400mm objektiv, lavet på uddannelsen.<br><small>- Redigeret i Adobe Premiere Pro</small></div>
-              </div>
-
-
-
-
-
-              <br>
-              <br>
-<div class="animationer-portfolio" id="animationer"><h3 id="anima">Animation</h3></div>
-<br>
-<div class="animationer-portfolio">
-    <div class="video9"><iframe class="video-9" src="https://www.youtube.com/embed/aBLZMNGKkcM"></iframe></div>
-      <div class="video10"><iframe src="https://www.mvvstudios.dk/papirflyver/index.html" class="video-10"></iframe></div>
-        <div class="video11">Animation, lavet til bandet Mens Vi Venter's julekalender.<br><small>- Redigeret i Adobe Premiere Pro</small></div>
-          <div class="video12">Animation til skoleprojekt.<br><small>- Designet i Adobe Illustrator og kodet i HTML og CSS.</small></div>
-
 </div>
 
-<br>
-<br>
-<br>
-<br>
 
 
-  <div class="grid-frontpage1-1">
-    <div class="front1-1" id="koncept"><img src="pictures/mob.jpg" alt="mig1" id="grafik"></div>
-      <div class="front2-1"><h1 id="front-header-1">Konceptudvikling</h1><p id=front-2>Design mockup prototype af en mad-app. Konceptet består i, at man nemt skulle kunne bestille mad fra diverse fastfood restauranter.<br> <b>Kontakt mig med din ide, og få et uforpligtende tilbud i dag.</b></p></div>
-        <div class="front3-1" id="hjemmeside"><h1 id="front-header-2">Hjemmesidedesign</h1><p id=front-3>Denne portfolio du surfer rundt på lige nu, er kodet <br>fra bunden i HTML og CSS. Så står du og mangler <br>en ny hjemmeside til virksomheden, så tag kontakt og få et uforpligtende tilbud.</p></div>
-          <div class="front4-1"><img src="pictures/com.jpg" alt="logo" id="grafik-1"></div>
-  </div>
+<div class="ga-til-top" id="toppen-1"><a href="#scroll"><i class='bx bx-chevron-up'></i></a></div>
+</main>
 
+  <footer>
+    <div class="footer-indhold">
+      <div class="kontakt-opl"><img src="pictures/logo-lang-lys.png" alt="jarldesign-logo">
+        <p><b>Tag kontakt nu:</b><br>E-mail: Emil@jarlsdesign.dk<br>Mobil: +45 21 35 29 40<br>
+      </div>
+      <div class="kontakt-opl-1">
+        <h3>Nyttige links</h3>
+        <ul>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="om_mig.html">Om mig</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
 
-<br>
-<br>
-<br>
-<br>
-
-<div class="toppen">
-  <div class="kontakt-knap-2">
-  <a id="kontakt-knap2" href="#toppen">Gå til top</a>
-  </div>
-</div>
-<br>
-<br>
-<br>
-
-<footer>
-  <div class="footer">© Copyright Emil Jarl K. Møller design
-
-  </div>
+      <div class="kontakt-opl-2"><h2>Find mig her:</h2><br><i class='bx bxl-facebook-square'></i><i class='bx bxl-instagram-alt' ></i><i class='bx bxl-youtube' ></i></div>
+    </div>
+<div class="footer">© Copyright Emil Jarl K. Møller design</div>
 </footer>
 
+</body>
 
 
-    </body>
 
-    </html>
+</html>

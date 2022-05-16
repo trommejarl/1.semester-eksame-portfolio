@@ -1,68 +1,95 @@
 <!DOCTYPE html>
 <html lang="da" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Kontakt</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <title>Kontakt</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
-  </head>
-  <body>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+<script src="js/header.js" defer></script>
+<script src="js/slide.js" defer></script>
+<script src="js/slide-1.js" defer></script>
+</head>
 
-    <nav>
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
+<body class="forside-baggrund" id="scroll">
 
-    <a class="logo" href="index.html"><span class="logo-top">Kontakt</span></a>
+  <nav id="bagg">
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
 
-      <ul>
-        <li><a href="index.html">Startside</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="om_mig.html">Om Mig</a></li>
-        <li><a class="aktiv"  href="kontakt.html">Kontakt</a></li>
-      </ul>
+    <a class="logo" href="index.html"><span class="logo-top"><img src="pictures/logo-lang.png" alt="jarldesign-logo" id="logo-jarlsdesign"></span></a>
+
+    <ul>
+      <li><a href="index.html">Startside</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="om_mig.html">Om Mig</a></li>
+      <li><a class="aktiv" href="kontakt.html">Kontakt</a></li>
+    </ul>
   </nav>
 
-
   <section>
-
+    <img src="pictures/jarlen/3.jpg" alt="jarlsdesign" id="gf1-pic">
     <div class="section-container">
-      <div class="titel"><h1>Kontakt mig her</h1></div>
+      <div class="titel">
+        <h2>Kontakt</h2>
+      </div>
       <div><img src="pictures/boelge.png" alt="boelge" id="wave"></div>
     </div>
-
   </section>
 
-<div class="grid-body">
+<main class="white">
+  <div class="breadcrumbs">
+    <a href="index.html" class="breadcrumbs__item">Startside</a>
+    <a href="portfolio.html" class="breadcrumbs__item is-active">Kontakt</a>
+    </div>
+<div class="port"><h1>Kontakt mig her</h1><p>Tag kontakt i dag, via mobil eller på mail og få svar inden for 24 timer.</p></div>
+<div class="white-space-1">
 
-    <div class="itema"><h2 id="contact-titel"> <br><br> Er du interesseret i et uforpligtende tilbud?</h2></div>
-      <div class="itemb"><p id="contact-me-text">Står du og skal bruge et skræddersyet logodesign, grafisk design, fotografering eller videoproduktion,
-  så kontakt mig endelig. <br> Med udgangspunkt i min store erfaring, kan jeg garantere, at du vil modtage et produkt du er 100% tilfreds med. <br> Send en mail eller ring med alle info omkring dit projekt og så
-  finder vi den helt rigtige løsning for dig og et uforpligtende tilbud. <br> Hos Emil Jarl K. Møller Design, laver vi professionelt grafisk design og garanterer et færdigt produkt i høj kvalitet.</p>
+        <div class="kontakt-oply">
+          <h3>Adresse:</h3><p>Seebladsgade, 5000 Odense C</p><br>
+          <h3>Mobil:</h3><p>+45 21 35 29 40</p><br>
+          <h3>E-mail:</h3><p>Emil@jarlsdesign.dk</p><br>
+        </div>
+    <div class="kontakt-billede">
+      <img src="pictures/mig.png" alt="grafisk portræt">
+    </div>
+
 </div>
-<br>
-        <div class="itemc"><h3 id="contact-now">Kontakt mig på nedstående</h3></div>
-<br>
-          <div class="itemd"><p><b>Adresse:</b> Seebladsgade 1, 5000 Odense C</p><br>
-  <p><b>Email:</b><a href="mailto:jarlens@live.dk"> jarlens@live.dk</a></p><br>
-  <p><b>Telefon:</b> +45 21 35 29 40</p></div>
-<br>
-<div class="iteme"><h2>Tag kontakt nu</h2><br><p>Skriv til mig på mail eller kontakt mig via. telefon og få et uforpligtende tilbud i dag. </p></div>
-<div class="itemf"><img src="pictures/mig.png" alt="emil" class="responsive"></div>
-</div>
 
-<footer>
-  <div class="footer">© Copyright Emil Jarl K. Møller design
 
-  </div>
+
+<div class="ga-til-top" id="toppen-1"><a href="#scroll"><i class='bx bx-chevron-up'></i></a></div>
+</main>
+
+  <footer>
+    <div class="footer-indhold">
+      <div class="kontakt-opl"><img src="pictures/logo-lang-lys.png" alt="jarldesign-logo">
+        <p><b>Tag kontakt nu:</b><br>E-mail: Emil@jarlsdesign.dk<br>Mobil: +45 21 35 29 40<br>
+      </div>
+      <div class="kontakt-opl-1">
+        <h3>Nyttige links</h3>
+        <ul>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="om_mig.html">Om mig</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+
+      <div class="kontakt-opl-2"><h2>Find mig her:</h2><br><i class='bx bxl-facebook-square'></i><i class='bx bxl-instagram-alt' ></i><i class='bx bxl-youtube' ></i></div>
+    </div>
+<div class="footer">© Copyright Emil Jarl K. Møller design</div>
 </footer>
 
-  </body>
+</body>
+
+
+
 </html>
